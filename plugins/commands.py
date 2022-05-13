@@ -47,6 +47,9 @@ async def start(client, message):
             InlineKeyboardButton('🔎 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('⚡ Updates', url='https://t.me/DTG_BOTS')
             ],[
+            InlineKeyboardButton('🌟 Main Channel', url='https://t.me/DTG_TV'),
+            InlineKeyboardButton('💥 Bot Movie Channel', url='https://t.me/wonka_hindi')
+            ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('🤖 About', callback_data='about')
         ]]
