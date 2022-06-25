@@ -67,6 +67,14 @@
             "value": "Telegram_files",
             "required": false
         }
+        "PUBLIC_FILE_STORE"{
+             "description": "protect your bot from others use"
+             "required": true
+        }
+        "PROTECT_CONTENT"{
+              "description": "protect from copy/forward"
+              "required": true
+        }
     },
     "addons": [],
     "buildpacks": [{
