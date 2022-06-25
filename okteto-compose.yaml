@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  worker:
+    build: .
+    environment:
+     - API_ID=${API_ID}
+     - API_HASH=${API_HASH}
+     - BOT_TOKEN=${BOT_TOKEN}
+     - ADMINS=${ADMINS}
+     - CHANNELS=${CHANNELS}
+     - CUSTOM_FILE_CAPTION=${CUSTOM_FILE_CAPTION}
+     - COLLECTION_NAME=${COLLECTION_NAME}
+     - DATABASE_NAME=${DATABASE_NAME}
+     - DATABASE_URI=${DATABASE_URI}
+     - LOG_CHANNEL=${LOG_CHANNEL}
+     - PICS=${PICS}
+     - P_TTI_SHOW_OFF=${P_TTI_SHOW_OFF}
+     - UPSTREAM_REPO=${UPSTREAM_REPO}
